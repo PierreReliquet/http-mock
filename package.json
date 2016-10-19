@@ -1,0 +1,23 @@
+{
+  "name": "http-mock",
+  "version": "0.0.1",
+  "description": "A simple http-mock which returns a given status code and payload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http",
+    "mock",
+    "status",
+    "code"
+  ],
+  "author": "Pierre Reliquet",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "minimist": "^1.2.0"
+  }
+}
